@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tariq Niazai | Recent Work - Portfolio Showcase</title>
+    <link rel="stylesheet" href="Styles/Recent.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Animated Background -->
+    <div class="background">
+      <div class="glow glow1"></div>
+      <div class="glow glow2"></div>
+      <div class="glow glow3"></div>
+      <div class="glow glow4"></div>
+
+      <div class="particles">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span>
+      </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="header">
+      <div class="logo">
+        <h2>Tariq Niazai</h2>
+      </div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="casestudies.html">Case Studies</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="recent.html" class="active">Recent Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-links">
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="icons/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="icons/facebook.png" alt="Facebook" />
+        </a>
+        <a
+          href="https://wa.me/your-number"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="icons/whatsapp.png" alt="WhatsApp" />
+        </a>
+        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+          <img src="icons/tiktok.png" alt="TikTok" />
+        </a>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Page Title Section -->
+      <div class="page-title">
+        <h1>My <span>Recent Work</span></h1>
+        <p>Web Development • Graphics Design • Video Editing</p>
+      </div>
+
+      <!-- Category Filter Buttons -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">
+          All Projects
+        </button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="graphics">
+          Graphics Design
+        </button>
+        <button class="filter-btn" data-filter="video">Video Editing</button>
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div class="portfolio-grid">
+        <!-- Project 1 - Web Development (E-Commerce) -->
+        <div class="portfolio-item" data-category="web">
+          <div class="project-image">
+            <img
+              src="https://placehold.co/600x400/1a1a3e/00bcd4?text=E-Commerce+Website"
+              alt="E-Commerce Website"
+            />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h4>View Project</h4>
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Fashion Store E-Commerce</h3>
+            <p>Full-stack e-commerce platform with payment gateway</p>
+            <div class="tech-stack">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 - Graphics Design (Logo) -->
+        <div class="portfolio-item" data-category="graphics">
+          <div class="project-image">
+            <img
+              src="https://placehold.co/600x400/1a1a3e/ff00ff?text=Brand+Logo+Design"
+              alt="Brand Logo Design"
+            />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h4>View Project</h4>
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>TechCorp Brand Identity</h3>
+            <p>Modern logo design and brand guidelines</p>
+            <div class="tech-stack">
+              <span>Adobe Illustrator</span>
+              <span>Photoshop</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fas fa-eye"></i> View Design</a>
+              <a href="#"><i class="fas fa-download"></i> Preview</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 - Video Editing (Promo) -->
+        <div class="portfolio-item" data-category="video">
+          <div class="project-image">
+            <img
+              src="https://placehold.co/600x400/1a1a3e/00ff88?text=Product+Promo+Video"
+              alt="Product Promo Video"
+            />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h4>Watch Video</h4>
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Product Launch Promo</h3>
+            <p>30-second promotional video with motion graphics</p>
+            <div class="tech-stack">
+              <span>Premiere Pro</span>
+              <span>After Effects</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-youtube"></i> Watch</a>
+              <a href="#"><i class="fas fa-info-circle"></i> Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 - Web Development (Portfolio) -->
+        <div class="portfolio-item" data-category="web">
+          <div class="project-image">
+            <img
+              src="https://placehold.co/600x400/1a1a3e/00bcd4?text=Portfolio+Website"
+              alt="Portfolio Website"
+            />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h4>View Project</h4>
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Creative Agency Portfolio</h3>
+            <p>Modern portfolio website with animations</p>
+            <div class="tech-stack">
+              <span>HTML5/CSS3</span>
+              <span>JavaScript</span>
+              <span>GSAP</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 - Graphics Design (Social Media) -->
+        <div class="portfolio-item" data-category="graphics">
+          <div class="project-image">
+            <img
+              src="https://placehold.co/600x400/1a1a3e/ff00ff?text=Social+Media+Posts"
+              alt="Social Media Posts"
+            />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h4>View Project</h4>
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Social Media Campaign</h3>
+            <p>20+ custom graphics for Instagram & Facebook</p>
+            <div class="tech-stack">
+              <span>Canva Pro</span>
+              <span>Photoshop</span>
+              <span>Figma</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-instagram"></i> View</a>
+              <a href="#"><i class="fas fa-download"></i> Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 - Video Editing (Tutorial) -->
+        <div class="portfolio-item" data-category="video">
+          <div class="project-image">
+            <img
+              src="https://placehold.co/600x400/1a1a3e/00ff88?text=YouTube+Tutorial"
+              alt="YouTube Tutorial"
+            />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h4>Watch Video</h4>
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Web Dev Tutorial Series</h3>
+            <p>10-part YouTube tutorial with editing & effects</p>
+            <div class="tech-stack">
+              <span>Final Cut Pro</span>
+              <span>Motion Graphics</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-youtube"></i> Watch Series</a>
+              <a href="#"><i class="fas fa-share"></i> Share</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 7 - Web Development (Dashboard) -->
+        <div class="portfolio-item" data-category="web">
+          <div class="project-image">
+            <img
+              src="https://placehold.co/600x400/1a1a3e/00bcd4?text=Admin+Dashboard"
+              alt="Admin Dashboard"
+            />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h4>View Project</h4>
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Analytics Dashboard</h3>
+            <p>Real-time data dashboard with charts</p>
+            <div class="tech-stack">
+              <span>React</span>
+              <span>Chart.js</span>
+              <span>Firebase</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 8 - Graphics Design (Packaging) -->
+        <div class="portfolio-item" data-category="graphics">
+          <div class="project-image">
+            <img
+              src="https://placehold.co/600x400/1a1a3e/ff00ff?text=Packaging+Design"
+              alt="Packaging Design"
+            />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h4>View Project</h4>
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Product Packaging Design</h3>
+            <p>Eco-friendly packaging with 3D mockups</p>
+            <div class="tech-stack">
+              <span>Illustrator</span>
+              <span>Blender</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fas fa-eye"></i> View</a>
+              <a href="#"><i class="fas fa-3d"></i> 3D Mockup</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 9 - Video Editing (Wedding) -->
+        <div class="portfolio-item" data-category="video">
+          <div class="project-image">
+            <img
+              src="https://placehold.co/600x400/1a1a3e/00ff88?text=Wedding+Highlights"
+              alt="Wedding Highlights"
+            />
+            <div class="overlay">
+              <div class="overlay-content">
+                <h4>Watch Video</h4>
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Wedding Highlight Reel</h3>
+            <p>Cinematic wedding video with color grading</p>
+            <div class="tech-stack">
+              <span>DaVinci Resolve</span>
+              <span>After Effects</span>
+            </div>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-youtube"></i> Watch</a>
+              <a href="#"><i class="fas fa-heart"></i> Story</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Call to Action -->
+      <div class="cta-section">
+        <h3>Have a project in mind?</h3>
+        <p>Let's bring your ideas to life</p>
+        <button class="cta-button">
+          Hire Me Now <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        &copy; 2024 Tariq Niazai | Web Developer & Designer | Graphics & Video
+        Designer
+      </p>
+    </footer>
+  </body>
+</html>
